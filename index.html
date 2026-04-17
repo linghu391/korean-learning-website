@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>韩语学习网站 | 寓教于乐的韩语学习平台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>韩语学习</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">首页</a>
+                <a href="#words">单词学习</a>
+                <a href="#sentences">句子学习</a>
+                <a href="#grammar">语法学习</a>
+                <a href="#games">学习游戏</a>
+                <a href="#culture">文化内容</a>
+                <a href="#community">社区</a>
+            </div>
+            <div class="user-section">
+                <button class="btn login-btn">登录</button>
+                <button class="btn register-btn">注册</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页英雄区 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>轻松学习韩语，体验韩国文化</h2>
+                <p>通过寓教于乐的方式，结合热门中韩文化内容，让韩语学习变得简单有趣</p>
+                <div class="hero-buttons">
+                    <button class="btn primary-btn">开始学习</button>
+                    <button class="btn secondary-btn">了解更多</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20language%20learning%20website%20hero%20image%20with%20Korean%20cultural%20elements&image_size=landscape_16_9" alt="韩语学习">
+            </div>
+        </div>
+    </section>
+
+    <!-- 特色功能 -->
+    <section class="features">
+        <div class="container">
+            <h3>特色功能</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-book"></i>
+                    <h4>单词学习</h4>
+                    <p>从K-Pop歌词和韩剧台词中学习实用单词</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-comments"></i>
+                    <h4>句子学习</h4>
+                    <p>掌握韩国年轻人常用的流行语和表达</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>语法学习</h4>
+                    <p>通过游戏化方式轻松掌握韩语语法</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h4>学习游戏</h4>
+                    <p>通过有趣的游戏提升韩语水平</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-culture"></i>
+                    <h4>文化内容</h4>
+                    <p>了解韩国流行文化和传统习俗</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h4>社区互动</h4>
+                    <p>与其他学习者交流分享学习经验</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 单词学习 -->
+    <section id="words" class="words-section">
+        <div class="container">
+            <h3>单词学习</h3>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="kpop">K-Pop歌词单词</button>
+                <button class="tab-btn" data-tab="drama">韩剧台词单词</button>
+                <button class="tab-btn" data-tab="daily">日常情景词汇</button>
+                <button class="tab-btn" data-tab="hanja">汉字词对比</button>
+            </div>
+            <div class="tab-content active" id="kpop">
+                <div class="word-cards">
+                    <div class="word-card">
+                        <div class="word">사랑</div>
+                        <div class="meaning">爱情</div>
+                        <div class="example">사랑해요 (我爱你)</div>
+                        <div class="source">来自歌曲《사랑해》</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">기억</div>
+                        <div class="meaning">记忆</div>
+                        <div class="example">기억해요 (记住)</div>
+                        <div class="source">来自歌曲《기억》</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">행복</div>
+                        <div class="meaning">幸福</div>
+                        <div class="example">행복해요 (我很幸福)</div>
+                        <div class="source">来自歌曲《행복》</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="drama">
+                <div class="word-cards">
+                    <div class="word-card">
+                        <div class="word">진짜</div>
+                        <div class="meaning">真的</div>
+                        <div class="example">진짜요? (真的吗?)</div>
+                        <div class="source">来自韩剧《顶楼》</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">어떻게</div>
+                        <div class="meaning">怎么</div>
+                        <div class="example">어떻게 해요? (怎么办?)</div>
+                        <div class="source">来自韩剧《寄生虫》</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">괜찮아</div>
+                        <div class="meaning">没关系</div>
+                        <div class="example">괜찮아요 (没关系)</div>
+                        <div class="source">来自韩剧《爱的迫降》</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="daily">
+                <div class="word-cards">
+                    <div class="word-card">
+                        <div class="word">물</div>
+                        <div class="meaning">水</div>
+                        <div class="example">물 주세요 (请给我水)</div>
+                        <div class="source">日常用语</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">밥</div>
+                        <div class="meaning">饭</div>
+                        <div class="example">밥 먹었어요? (吃饭了吗?)</div>
+                        <div class="source">日常用语</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">가방</div>
+                        <div class="meaning">包</div>
+                        <div class="example">가방 있어요? (有包吗?)</div>
+                        <div class="source">日常用语</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="hanja">
+                <div class="word-cards">
+                    <div class="word-card">
+                        <div class="word">학생</div>
+                        <div class="meaning">学生</div>
+                        <div class="example">학생이에요 (我是学生)</div>
+                        <div class="source">汉字词: 学生</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">교실</div>
+                        <div class="meaning">教室</div>
+                        <div class="example">교실에 가요 (去教室)</div>
+                        <div class="source">汉字词: 教室</div>
+                    </div>
+                    <div class="word-card">
+                        <div class="word">도서관</div>
+                        <div class="meaning">图书馆</div>
+                        <div class="example">도서관에 있어요 (在图书馆)</div>
+                        <div class="source">汉字词: 图书馆</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 句子学习 -->
+    <section id="sentences" class="sentences-section">
+        <div class="container">
+            <h3>句子学习</h3>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="slang">流行语收集器</button>
+                <button class="tab-btn" data-tab="social">社交媒体用语</button>
+                <button class="tab-btn" data-tab="business">商务韩语句型</button>
+                <button class="tab-btn" data-tab="dialogue">日常对话模拟</button>
+            </div>
+            <div class="tab-content active" id="slang">
+                <div class="sentence-cards">
+                    <div class="sentence-card">
+                        <div class="sentence">얼굴이 찐따</div>
+                        <div class="meaning">长相丑陋</div>
+                        <div class="usage">年轻人之间的俚语</div>
+                    </div>
+                    <div class="sentence-card">
+                        <div class="sentence">빵터지다</div>
+                        <div class="meaning">非常生气</div>
+                        <div class="usage">年轻人之间的俚语</div>
+                    </div>
+                    <div class="sentence-card">
+                        <div class="sentence">개굿</div>
+                        <div class="meaning">非常好</div>
+                        <div class="usage">网络流行语</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="social">
+                <div class="sentence-cards">
+                    <div class="sentence-card">
+                        <div class="sentence">인스타 좋아요</div>
+                        <div class="meaning">Instagram点赞</div>
+                        <div class="usage">社交媒体用语</div>
+                    </div>
+                    <div class="sentence-card">
+                        <div class="sentence">틱톡 챌린지</div>
+                        <div class="meaning">TikTok挑战</div>
+                        <div class="usage">社交媒体用语</div>
+                    </div>
+                    <div class="sentence-card">
+                        <div class="sentence">해시태그</div>
+                        <div class="meaning">标签</div>
+                        <div class="usage">社交媒体用语</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="business">
+                <div class="sentence-cards">
+                    <div class="sentence-card">
+                        <div class="sentence">안녕하세요, 만나서 반갑습니다</div>
+                        <div class="meaning">你好，很高兴见到你</div>
+                        <div class="usage">商务场合问候</div>
+                    </div>
+                    <div class="sentence-card">
+                        <div class="sentence">제 이름은 ___ 입니다</div>
+                        <div class="meaning">我的名字是___</div>
+                        <div class="usage">商务场合自我介绍</div>
+                    </div>
+                    <div class="sentence-card">
+                        <div class="sentence">감사합니다</div>
+                        <div class="meaning">谢谢</div>
+                        <div class="usage">商务场合致谢</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="dialogue">
+                <div class="dialogue-simulator">
+                    <div class="dialogue-box">
+                        <div class="dialogue-message">
+                            <span class="sender">系统:</span>
+                            <span class="message">안녕하세요! 어떻게 도와드릴까요?</span>
+                        </div>
+                        <div class="dialogue-input">
+                            <input type="text" placeholder="输入你的回答...">
+                            <button class="btn send-btn">发送</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 语法学习 -->
+    <section id="grammar" class="grammar-section">
+        <div class="container">
+            <h3>语法学习</h3>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="game">语法游戏化</button>
+                <button class="tab-btn" data-tab="error">错误诊断系统</button>
+                <button class="tab-btn" data-tab="comparison">语法对比图表</button>
+            </div>
+            <div class="tab-content active" id="game">
+                <div class="grammar-game">
+                    <h4>语法闯关游戏</h4>
+                    <div class="game-levels">
+                        <div class="level-card">
+                            <div class="level-number">1</div>
+                            <div class="level-name">初级语法</div>
+                            <div class="level-desc">基本助词和终结词尾</div>
+                            <button class="btn play-btn">开始</button>
+                        </div>
+                        <div class="level-card">
+                            <div class="level-number">2</div>
+                            <div class="level-name">中级语法</div>
+                            <div class="level-desc">复杂句型和敬语</div>
+                            <button class="btn play-btn">开始</button>
+                        </div>
+                        <div class="level-card">
+                            <div class="level-number">3</div>
+                            <div class="level-name">高级语法</div>
+                            <div class="level-desc">惯用表达和特殊句型</div>
+                            <button class="btn play-btn">开始</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="error">
+                <div class="error-diagnosis">
+                    <h4>错误诊断系统</h4>
+                    <div class="diagnosis-form">
+                        <textarea placeholder="输入你的韩语句子，我们会帮你检查语法错误..."></textarea>
+                        <button class="btn diagnose-btn">检查</button>
+                    </div>
+                    <div class="diagnosis-result">
+                        <h5>检查结果</h5>
+                        <div class="result-content">
+                            <p>请输入句子进行检查</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="comparison">
+                <div class="grammar-comparison">
+                    <h4>中韩语法结构对比</h4>
+                    <div class="comparison-table">
+                        <table>
+                            <tr>
+                                <th>中文结构</th>
+                                <th>韩语结构</th>
+                                <th>例子</th>
+                            </tr>
+                            <tr>
+                                <td>主语 + 谓语 + 宾语</td>
+                                <td>主语 + 宾语 + 谓语</td>
+                                <td>我吃饭 → 나는 밥을 먹어요</td>
+                            </tr>
+                            <tr>
+                                <td>定语 + 名词</td>
+                                <td>名词 + 定语</td>
+                                <td>漂亮的女孩 → 예쁜 소녀</td>
+                            </tr>
+                            <tr>
+                                <td>时间 + 地点 + 动作</td>
+                                <td>时间 + 地点 + 动作</td>
+                                <td>明天在学校学习 → 내일 학교에서 공부해요</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学习游戏 -->
+    <section id="games" class="games-section">
+        <div class="container">
+            <h3>学习游戏</h3>
+            <div class="games-grid">
+                <div class="game-card">
+                    <h4>单词竞速赛</h4>
+                    <p>限时单词拼写/翻译比赛</p>
+                    <button class="btn play-btn">开始游戏</button>
+                </div>
+                <div class="game-card">
+                    <h4>语法拼图</h4>
+                    <p>将句子片段重新组合成正确语法结构</p>
+                    <button class="btn play-btn">开始游戏</button>
+                </div>
+                <div class="game-card">
+                    <h4>角色扮演游戏</h4>
+                    <p>模拟韩国生活场景，完成任务获得积分</p>
+                    <button class="btn play-btn">开始游戏</button>
+                </div>
+                <div class="game-card">
+                    <h4>每日挑战</h4>
+                    <p>不同难度等级的日常任务</p>
+                    <button class="btn play-btn">开始挑战</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 文化内容 -->
+    <section id="culture" class="culture-section">
+        <div class="container">
+            <h3>文化内容</h3>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="kpop">K-Pop文化专区</button>
+                <button class="tab-btn" data-tab="drama">韩剧深度解析</button>
+                <button class="tab-btn" data-tab="food">韩国美食地图</button>
+                <button class="tab-btn" data-tab="festival">节日文化专题</button>
+                <button class="tab-btn" data-tab="trend">流行趋势追踪</button>
+            </div>
+            <div class="tab-content active" id="kpop">
+                <div class="culture-content">
+                    <h4>K-Pop文化专区</h4>
+                    <div class="culture-cards">
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=K-pop%20idol%20group%20performing%20on%20stage&image_size=square" alt="K-Pop">
+                            <h5>BLACKPINK</h5>
+                            <p>韩国人气女团，代表作《DDU-DU DDU-DU》</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=BTS%20K-pop%20group%20performing&image_size=square" alt="BTS">
+                            <h5>BTS</h5>
+                            <p>全球知名男团，代表作《Dynamite》</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=K-pop%20concert%20crowd&image_size=square" alt="K-Pop Concert">
+                            <h5>Red Velvet</h5>
+                            <p>人气女团，代表作《Psycho》</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="drama">
+                <div class="culture-content">
+                    <h4>韩剧深度解析</h4>
+                    <div class="culture-cards">
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20drama%20scene%20romantic&image_size=square" alt="韩剧">
+                            <h5>爱的迫降</h5>
+                            <p>讲述韩国财阀女和朝鲜军官的爱情故事</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20drama%20historical%20setting&image_size=square" alt="韩剧">
+                            <h5>孤单又灿烂的神：鬼怪</h5>
+                            <p>讲述鬼怪和人类的奇幻爱情故事</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20drama%20modern%20city&image_size=square" alt="韩剧">
+                            <h5>顶楼</h5>
+                            <p>讲述上流社会的恩怨情仇</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="food">
+                <div class="culture-content">
+                    <h4>韩国美食地图</h4>
+                    <div class="culture-cards">
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20bibimbap%20food&image_size=square" alt="美食">
+                            <h5>비빔밥 (拌饭)</h5>
+                            <p>混合米饭、蔬菜和辣椒酱的传统美食</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20kimchi%20food&image_size=square" alt="美食">
+                            <h5>김치 (泡菜)</h5>
+                            <p>韩国传统发酵食品，以白菜为主要原料</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20bulgogi%20food&image_size=square" alt="美食">
+                            <h5>불고기 (烤肉)</h5>
+                            <p>用酱油、糖等调料腌制的烤肉</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="festival">
+                <div class="culture-content">
+                    <h4>节日文化专题</h4>
+                    <div class="culture-cards">
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20Lunar%20New%20Year%20celebration&image_size=square" alt="节日">
+                            <h5>설날 (春节)</h5>
+                            <p>韩国最重要的传统节日，家人团聚</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20Chuseok%20harvest%20festival&image_size=square" alt="节日">
+                            <h5>추석 (中秋)</h5>
+                            <p>韩国传统 harvest festival，家人团聚</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20Buddha's%20birthday%20celebration&image_size=square" alt="节日">
+                            <h5>석가탄신일 (佛诞节)</h5>
+                            <p>庆祝佛祖诞辰的重要节日</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="trend">
+                <div class="culture-content">
+                    <h4>流行趋势追踪</h4>
+                    <div class="culture-cards">
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20fashion%20trends&image_size=square" alt="时尚">
+                            <h5>한국 패션 (韩国时尚)</h5>
+                            <p>韩国最新时尚潮流和穿搭风格</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20beauty%20products&image_size=square" alt="美妆">
+                            <h5>한국 화장품 (韩国美妆)</h5>
+                            <p>韩国热门美妆产品和护肤趋势</p>
+                        </div>
+                        <div class="culture-card">
+                            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Korean%20technology%20trends&image_size=square" alt="科技">
+                            <h5>한국 테크 (韩国科技)</h5>
+                            <p>韩国最新科技产品和创新趋势</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 社区 -->
+    <section id="community" class="community-section">
+        <div class="container">
+            <h3>社区互动</h3>
+            <div class="community-content">
+                <div class="community-features">
+                    <div class="feature-card">
+                        <i class="fas fa-users"></i>
+                        <h4>学习小组</h4>
+                        <p>按兴趣或水平分组学习</p>
+                        <button class="btn join-btn">加入小组</button>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-share-alt"></i>
+                        <h4>文化分享区</h4>
+                        <p>用户分享韩国文化体验</p>
+                        <button class="btn share-btn">分享内容</button>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-exchange-alt"></i>
+                        <h4>语言交换</h4>
+                        <p>中韩学习者互相帮助</p>
+                        <button class="btn exchange-btn">开始交换</button>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-trophy"></i>
+                        <h4>挑战排行榜</h4>
+                        <p>学习成果展示和竞争</p>
+                        <button class="btn rank-btn">查看排行</button>
+                    </div>
+                </div>
+                <div class="forum-section">
+                    <h4>讨论论坛</h4>
+                    <div class="forum-posts">
+                        <div class="forum-post">
+                            <div class="post-header">
+                                <span class="poster">用户123</span>
+                                <span class="post-time">2小时前</span>
+                            </div>
+                            <div class="post-title">请问这个语法点怎么用？</div>
+                            <div class="post-content">我在学习韩国语的过程中遇到了一个语法问题，想请教一下大家...</div>
+                            <div class="post-footer">
+                                <span class="post-comments">5条评论</span>
+                                <span class="post-likes">12个赞</span>
+                            </div>
+                        </div>
+                        <div class="forum-post">
+                            <div class="post-header">
+                                <span class="poster">韩语爱好者</span>
+                                <span class="post-time">5小时前</span>
+                            </div>
+                            <div class="post-title">分享我的韩国旅行经历</div>
+                            <div class="post-content">最近去了韩国旅行，有很多有趣的文化体验想和大家分享...</div>
+                            <div class="post-footer">
+                                <span class="post-comments">8条评论</span>
+                                <span class="post-likes">25个赞</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn create-post-btn">发布新帖子</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>关于我们</h4>
+                    <p>韩语学习网站致力于提供寓教于乐的韩语学习体验，结合中韩文化热门内容，让学习变得简单有趣。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#words">单词学习</a></li>
+                        <li><a href="#sentences">句子学习</a></li>
+                        <li><a href="#grammar">语法学习</a></li>
+                        <li><a href="#games">学习游戏</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@koreanlearning.com</li>
+                        <li><i class="fas fa-phone"></i> +86 123 4567 8901</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 北京市朝阳区</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>关注我们</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-qq"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 韩语学习网站. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
